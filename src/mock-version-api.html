@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Version API Mock</title>
+</head>
+<body>
+    <h1>Mock Version API for Testing</h1>
+    <p>This file simulates a version API endpoint for testing purposes.</p>
+    
+    <script>
+        // Mock version API endpoint for testing
+        window.mockVersionAPI = {
+            version: '0.0.2',
+            releaseDate: '2025-09-30',
+            updateRequired: false,
+            securityUpdate: false,
+            downloadUrl: 'https://example.com/download/latest',
+            changelog: [
+                'Enhanced recipient domain extraction with better error handling',
+                'Added comprehensive cache clearing functionality',
+                'Improved version checking and update notifications',
+                'Performance optimizations and bug fixes'
+            ]
+        };
+        
+        console.log('Mock Version API loaded:', window.mockVersionAPI);
+    </script>
+</body>
+</html>

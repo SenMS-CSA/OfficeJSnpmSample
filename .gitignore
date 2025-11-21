@@ -1,0 +1,7 @@
+node_modules
+dist
+.vscode
+*.log
+
+# Copied office.js files (generated from npm package)
+public/office-js/
