@@ -381,7 +381,7 @@ Would you like to download the update?`;
     if (versionInfo.downloadUrl) {
       window.open(versionInfo.downloadUrl, '_blank');
     } else {
-      alert('Please contact your administrator for the update.');
+      console.log('Please contact your administrator for the update.');
     }
   }
   
